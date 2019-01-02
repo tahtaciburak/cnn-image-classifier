@@ -8,7 +8,7 @@ https://github.com/tahtaciburak/cnn-image-classifier/ adresinden projeye ait kod
 Proje, jupyter-notebook uygulaması kullanılarak geliştirmiştir. Kaynak kodlar hem jupyter-notebook ortamında hem de normal python dosyası şeklinde kaydedilmiştir. Kodu çalıştırabilmek için Keras ve Python3.6 yüklü olmalıdır. Ek olarak numpy, Pillow bağımlılıklarının da yüklü olması gerekmektedir.
 
 ## Jupyter-Notebook Kullanarak
-`jupyter-notebook` komutuyla interaktif not defterinin core'u çalıştırılır. Ardından kaynak kodların bulunduğu dizine gidilir. Bu dizinde main.ipynb dosyası açıldıktan sonra parçalara bölünmüş olan kodlar adım adım çalıştırılabilir.
+`jupyter-notebook` komutuyla interaktif not defterinin core'u çalıştırılır. Ardından kaynak kodların bulunduğu dizine gidilir. Bu dizinde main.ipynb dosyası açıldıktan sonra parçalara bölünmüş olan kodlar adım adım çalıştırılabilir. `augmented-data-main.ipynb` dosyasında veri çoğaltma işlemi ile birlikte yapılan sonuçlar bulunmaktadır. İki farklı modelin sonuçları bu dosyalar kullanılarak karşılaştırılabilir.
 
 ## Python Kullanarak
 `python3 main.py` komutu verilerek script çalıştırılabilir. Bağımlılıklar sorunsuz biçimde yüklenmişse main.py isimli script "Dataset/" dosyasını okuyarak işlemeye başlamaktadır. Eğitim ve test sonuçlarını STDOUT'a bastıktan sonra validasyon veri setini okuyup validasyon sonuçlarını göstermektedir.
